@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="137.966756">
+<testcase classname="Check Product Title" name="test1_Nikon(Firefox)" time="39.128938">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at amazon_cucumber_test.TestStepsDefinition.checkProductTopic(TestStepsDefinition.java:126)&#13;&#10;&#9;at ✽.Then Check that product topic contains text &quot;Nikon D3X&quot;(CheckProductTitle.feature:15)&#13;&#10;"><![CDATA[Given User opens a browser "Firefox"........................................passed
+And User opens the webpage "http://www.amazon.com/".........................passed
+When User inputs string to search "Nikon"...................................passed
+And User sorts results by price from High to Low............................passed
+And User selects item 2.....................................................passed
+Then Check that product topic contains text "Nikon D3X".....................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at amazon_cucumber_test.TestStepsDefinition.checkProductTopic(TestStepsDefinition.java:126)
+	at ✽.Then Check that product topic contains text "Nikon D3X"(CheckProductTitle.feature:15)
+]]></failure>
+</testcase>
+<testcase classname="Check Product Title" name="test2_Nikon(Chrome)" time="44.919537">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at amazon_cucumber_test.TestStepsDefinition.checkProductTopic(TestStepsDefinition.java:126)&#13;&#10;&#9;at ✽.Then Check that product topic contains text &quot;Nikon D3X&quot;(CheckProductTitle.feature:23)&#13;&#10;"><![CDATA[Given User opens a browser "Chrome".........................................passed
+And User opens the webpage "http://www.amazon.com/".........................passed
+When User inputs string to search "Nikon"...................................passed
+And User sorts results by price from High to Low............................passed
+And User selects item 2.....................................................passed
+Then Check that product topic contains text "Nikon D3X".....................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at amazon_cucumber_test.TestStepsDefinition.checkProductTopic(TestStepsDefinition.java:126)
+	at ✽.Then Check that product topic contains text "Nikon D3X"(CheckProductTitle.feature:23)
+]]></failure>
+</testcase>
+<testcase classname="Check Product Title" name="test3_Nikon(InternetExplorer)" time="53.918281">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at amazon_cucumber_test.TestStepsDefinition.checkProductTopic(TestStepsDefinition.java:126)&#13;&#10;&#9;at ✽.Then Check that product topic contains text &quot;Nikon D3X&quot;(CheckProductTitle.feature:31)&#13;&#10;"><![CDATA[Given User opens a browser "IE".............................................passed
+And User opens the webpage "http://www.amazon.com/".........................passed
+When User inputs string to search "Nikon"...................................passed
+And User sorts results by price from High to Low............................passed
+And User selects item 2.....................................................passed
+Then Check that product topic contains text "Nikon D3X".....................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at amazon_cucumber_test.TestStepsDefinition.checkProductTopic(TestStepsDefinition.java:126)
+	at ✽.Then Check that product topic contains text "Nikon D3X"(CheckProductTitle.feature:31)
+]]></failure>
+</testcase>
+</testsuite>
