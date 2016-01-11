@@ -31,7 +31,7 @@ public class BrowserDriver {
 		}
 		else if (name.toLowerCase().equals("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "drivers//chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "drivers//chromedriver.exe");		
 			mDriver = new ChromeDriver();
 		}
 		else if (name.toLowerCase().equals("ie"))
@@ -39,6 +39,7 @@ public class BrowserDriver {
 			System.setProperty("webdriver.ie.driver", "drivers//IEDriverServer.exe");
 			DesiredCapabilities ieCapabilities = DesiredCapabilities.internetExplorer();
 			ieCapabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
+			ieCapabilities.setCapability(InternetExplorerDriver.ENABLE_ELEMENT_CACHE_CLEANUP, true);
 			ieCapabilities.setCapability("ensureCleanSession", true);
 			mDriver = new InternetExplorerDriver(ieCapabilities);
 		}

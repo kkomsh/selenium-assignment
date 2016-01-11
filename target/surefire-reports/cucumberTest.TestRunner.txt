@@ -1,52 +1,22 @@
 -------------------------------------------------------------------------------
 Test set: cucumberTest.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 21, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 139.849 sec <<< FAILURE!
-Then Check that product topic contains text "Nikon D3X"(Scenario: test1_Nikon(Firefox))  Time elapsed: 0.004 sec  <<< FAILURE!
+Tests run: 21, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 99.051 sec <<< FAILURE! - in cucumberTest.TestRunner
+Then Check that product topic contains text "Nikon D3X"(Scenario: test1_Nikon(Firefox))  Time elapsed: 0.005 sec  <<< FAILURE!
 java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at amazon_cucumber_test.TestStepsDefinition.checkProductTopic(TestStepsDefinition.java:126)
-	at ?.Then Check that product topic contains text "Nikon D3X"(CheckProductTitle.feature:15)
 
-Scenario: test1_Nikon(Firefox)  Time elapsed: 0.004 sec  <<< FAILURE!
+Scenario: test1_Nikon(Firefox)  Time elapsed: 0.005 sec  <<< FAILURE!
 java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at amazon_cucumber_test.TestStepsDefinition.checkProductTopic(TestStepsDefinition.java:126)
-	at ?.Then Check that product topic contains text "Nikon D3X"(CheckProductTitle.feature:15)
 
-Then Check that product topic contains text "Nikon D3X"(Scenario: test2_Nikon(Chrome))  Time elapsed: 0 sec  <<< FAILURE!
+Then Check that product topic contains text "Nikon D3X"(Scenario: test2_Nikon(Chrome))  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at amazon_cucumber_test.TestStepsDefinition.checkProductTopic(TestStepsDefinition.java:126)
-	at ?.Then Check that product topic contains text "Nikon D3X"(CheckProductTitle.feature:23)
 
-Scenario: test2_Nikon(Chrome)  Time elapsed: 0 sec  <<< FAILURE!
+Scenario: test2_Nikon(Chrome)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at amazon_cucumber_test.TestStepsDefinition.checkProductTopic(TestStepsDefinition.java:126)
-	at ?.Then Check that product topic contains text "Nikon D3X"(CheckProductTitle.feature:23)
 
-Then Check that product topic contains text "Nikon D3X"(Scenario: test3_Nikon(InternetExplorer))  Time elapsed: 0 sec  <<< FAILURE!
+Then Check that product topic contains text "Nikon D3X"(Scenario: test3_Nikon(InternetExplorer))  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at amazon_cucumber_test.TestStepsDefinition.checkProductTopic(TestStepsDefinition.java:126)
-	at ?.Then Check that product topic contains text "Nikon D3X"(CheckProductTitle.feature:31)
 
-Scenario: test3_Nikon(InternetExplorer)  Time elapsed: 0 sec  <<< FAILURE!
+Scenario: test3_Nikon(InternetExplorer)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at amazon_cucumber_test.TestStepsDefinition.checkProductTopic(TestStepsDefinition.java:126)
-	at ?.Then Check that product topic contains text "Nikon D3X"(CheckProductTitle.feature:31)
 

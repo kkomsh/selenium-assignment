@@ -54,7 +54,7 @@ formatter.match({
   "location": "TestStepsDefinition.openBrowser(String)"
 });
 formatter.result({
-  "duration": 11059838892,
+  "duration": 6006281875,
   "status": "passed"
 });
 formatter.match({
@@ -67,7 +67,7 @@ formatter.match({
   "location": "TestStepsDefinition.openWebPage(String)"
 });
 formatter.result({
-  "duration": 8160311828,
+  "duration": 1305688188,
   "status": "passed"
 });
 formatter.match({
@@ -80,14 +80,14 @@ formatter.match({
   "location": "TestStepsDefinition.defineSearchString(String)"
 });
 formatter.result({
-  "duration": 1498585453,
+  "duration": 5064348759,
   "status": "passed"
 });
 formatter.match({
   "location": "TestStepsDefinition.sortsResultsByPriceHL()"
 });
 formatter.result({
-  "duration": 4684144002,
+  "duration": 3710166501,
   "status": "passed"
 });
 formatter.match({
@@ -100,7 +100,7 @@ formatter.match({
   "location": "TestStepsDefinition.openItemByIndex(int)"
 });
 formatter.result({
-  "duration": 1382096372,
+  "duration": 2068570098,
   "status": "passed"
 });
 formatter.match({
@@ -113,12 +113,12 @@ formatter.match({
   "location": "TestStepsDefinition.checkProductTopic(String)"
 });
 formatter.result({
-  "duration": 3065307212,
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat amazon_cucumber_test.TestStepsDefinition.checkProductTopic(TestStepsDefinition.java:126)\r\n\tat ✽.Then Check that product topic contains text \"Nikon D3X\"(CheckProductTitle.feature:15)\r\n",
+  "duration": 3119316549,
+  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat amazon_cucumber_test.TestStepsDefinition.checkProductTopic(TestStepsDefinition.java:125)\r\n\tat ✽.Then Check that product topic contains text \"Nikon D3X\"(CheckProductTitle.feature:15)\r\n",
   "status": "failed"
 });
 formatter.after({
-  "duration": 9278653814,
+  "duration": 3936137954,
   "status": "passed"
 });
 formatter.scenario({
@@ -169,7 +169,7 @@ formatter.match({
   "location": "TestStepsDefinition.openBrowser(String)"
 });
 formatter.result({
-  "duration": 22912640295,
+  "duration": 2773372886,
   "status": "passed"
 });
 formatter.match({
@@ -182,7 +182,7 @@ formatter.match({
   "location": "TestStepsDefinition.openWebPage(String)"
 });
 formatter.result({
-  "duration": 6596501664,
+  "duration": 5530297791,
   "status": "passed"
 });
 formatter.match({
@@ -195,14 +195,14 @@ formatter.match({
   "location": "TestStepsDefinition.defineSearchString(String)"
 });
 formatter.result({
-  "duration": 6548883500,
+  "duration": 4929019231,
   "status": "passed"
 });
 formatter.match({
   "location": "TestStepsDefinition.sortsResultsByPriceHL()"
 });
 formatter.result({
-  "duration": 186668556,
+  "duration": 176968958,
   "status": "passed"
 });
 formatter.match({
@@ -215,7 +215,7 @@ formatter.match({
   "location": "TestStepsDefinition.openItemByIndex(int)"
 });
 formatter.result({
-  "duration": 6452098215,
+  "duration": 5789934158,
   "status": "passed"
 });
 formatter.match({
@@ -228,12 +228,12 @@ formatter.match({
   "location": "TestStepsDefinition.checkProductTopic(String)"
 });
 formatter.result({
-  "duration": 101860445,
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat amazon_cucumber_test.TestStepsDefinition.checkProductTopic(TestStepsDefinition.java:126)\r\n\tat ✽.Then Check that product topic contains text \"Nikon D3X\"(CheckProductTitle.feature:23)\r\n",
+  "duration": 78545150,
+  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat amazon_cucumber_test.TestStepsDefinition.checkProductTopic(TestStepsDefinition.java:125)\r\n\tat ✽.Then Check that product topic contains text \"Nikon D3X\"(CheckProductTitle.feature:23)\r\n",
   "status": "failed"
 });
 formatter.after({
-  "duration": 2120884105,
+  "duration": 2339025074,
   "status": "passed"
 });
 formatter.scenario({
@@ -284,7 +284,7 @@ formatter.match({
   "location": "TestStepsDefinition.openBrowser(String)"
 });
 formatter.result({
-  "duration": 4390897870,
+  "duration": 2697363539,
   "status": "passed"
 });
 formatter.match({
@@ -297,7 +297,7 @@ formatter.match({
   "location": "TestStepsDefinition.openWebPage(String)"
 });
 formatter.result({
-  "duration": 4739072339,
+  "duration": 4571321034,
   "status": "passed"
 });
 formatter.match({
@@ -310,14 +310,14 @@ formatter.match({
   "location": "TestStepsDefinition.defineSearchString(String)"
 });
 formatter.result({
-  "duration": 29965935597,
+  "duration": 29881855430,
   "status": "passed"
 });
 formatter.match({
   "location": "TestStepsDefinition.sortsResultsByPriceHL()"
 });
 formatter.result({
-  "duration": 4084060870,
+  "duration": 2647281828,
   "status": "passed"
 });
 formatter.match({
@@ -330,7 +330,7 @@ formatter.match({
   "location": "TestStepsDefinition.openItemByIndex(int)"
 });
 formatter.result({
-  "duration": 8507496688,
+  "duration": 9338765336,
   "status": "passed"
 });
 formatter.match({
@@ -343,12 +343,12 @@ formatter.match({
   "location": "TestStepsDefinition.checkProductTopic(String)"
 });
 formatter.result({
-  "duration": 206566564,
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat amazon_cucumber_test.TestStepsDefinition.checkProductTopic(TestStepsDefinition.java:126)\r\n\tat ✽.Then Check that product topic contains text \"Nikon D3X\"(CheckProductTitle.feature:31)\r\n",
+  "duration": 326878958,
+  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat amazon_cucumber_test.TestStepsDefinition.checkProductTopic(TestStepsDefinition.java:125)\r\n\tat ✽.Then Check that product topic contains text \"Nikon D3X\"(CheckProductTitle.feature:31)\r\n",
   "status": "failed"
 });
 formatter.after({
-  "duration": 2024250795,
+  "duration": 2444566419,
   "status": "passed"
 });
 });
